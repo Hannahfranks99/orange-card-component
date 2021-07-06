@@ -1,0 +1,79 @@
+/* background */
+body {
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+svg {
+  margin-bottom: 40px;
+}
+
+.background {
+  padding: 10% 19%;
+  position: absolute;
+}
+
+/* containers */
+.container-fluid {
+  display: inline-block;
+  height: 500px;
+}
+
+/* headings */
+
+.heading {
+  margin-bottom: 40px;
+}
+
+
+/* text-containers */
+.sedans-text {
+  padding: 3rem;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-text {
+  padding: 3rem;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-text {
+  padding: 3rem;
+  background-color: hsl(179, 100%, 13%);
+}
+
+/* button-text */
+
+.sedans-text .learn-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs-text .learn-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-text .learn-button {
+  color: hsl(179, 100%, 13%);
+}
+
+/* buttons */
+
+.learn-button {
+  margin-top: 4rem;
+  border-radius: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+.learn-button:hover {
+  outline-color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  color: hsl(0, 0%, 95%)
+}
